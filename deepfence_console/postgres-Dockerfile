@@ -1,4 +1,4 @@
-FROM postgres:14.0-alpine3.14
+FROM postgres:alpine
 
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
