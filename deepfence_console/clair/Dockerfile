@@ -11,7 +11,7 @@ RUN export CLAIR_VERSION="v2.1.2" \
     && cd /go/check_postgres && go build check-postgres.go \
     && cd /go/cve_server && go build cve-server.go
 
-FROM alpine:3.14.2
+FROM alpine:3.14
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
 
