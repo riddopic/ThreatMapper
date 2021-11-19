@@ -1,4 +1,4 @@
-FROM golang:1.14-buster
+FROM golang:1.17.3-buster
 
 RUN apt-get update
 RUN apt-get install -y bash make git gcc libc-dev
