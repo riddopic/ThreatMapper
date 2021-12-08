@@ -1,7 +1,7 @@
 # Changes to this file will not take effect in CI
 # until the image version in the CI config is updated. See
 # https://github.com/weaveworks/scope/blob/master/.circleci/config.yml#L11
-FROM node:10.19
+FROM node:10.23.1
 ENV NPM_CONFIG_LOGLEVEL=warn
 ENV NPM_CONFIG_PROGRESS=false
 ENV XDG_CACHE_HOME=/home/weave/scope/.cache
