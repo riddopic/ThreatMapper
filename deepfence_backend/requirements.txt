@@ -1,7 +1,7 @@
 asyncio_redis==0.16.0
 git+https://github.com/deepfence/kombu
 arrow==1.2.1
-celery==5.1.2
+celery==5.2.2
 gevent==21.8.0
 click==7.1.2
 elasticsearch==7.10.1
