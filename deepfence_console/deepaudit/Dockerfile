@@ -6,7 +6,7 @@ WORKDIR /go/deepaudit/
 RUN go mod tidy \
     && go build -o deepaudit
 
-FROM python:3.9-alpine3.15
+FROM python:3.11.0a5-alpine3.15
 LABEL maintainer="Deepfence Inc"
 LABEL deepfence.role=system
 
