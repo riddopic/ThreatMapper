@@ -6,7 +6,7 @@ RUN apt-get update \
     && cd /go/syft \
     && go build -v -o syftCli .
 
-FROM debian:bullseye-slim
+FROM debian:11-slim
 
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
