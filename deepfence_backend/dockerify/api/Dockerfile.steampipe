@@ -1,4 +1,4 @@
-FROM golang:1.17-bullseye
+FROM golang:latest
 LABEL deepfence.role=system
 
 WORKDIR /go
