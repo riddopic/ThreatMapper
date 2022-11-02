@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 WORKDIR /home/weave
 ADD ./qotd /home/weave/
 EXPOSE 4446
