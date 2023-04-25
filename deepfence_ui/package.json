@@ -52,7 +52,7 @@
     "reqwest": "2.0.5",
     "reselect": "^4.0.0",
     "styled-components": "^4.3.2",
-    "yaml": "^1.10.2"
+    "yaml": "^2.2.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.14",
