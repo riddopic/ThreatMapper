@@ -4,7 +4,7 @@ ADD . /go/diagnosis/
 WORKDIR /go/diagnosis/
 RUN go build -o diagnosis *.go
 
-FROM alpine:3.15
+FROM alpine:3.16
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
 
