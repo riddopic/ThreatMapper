@@ -1,4 +1,4 @@
-FROM golang:1.16.2
+FROM golang:1.20.9
 ENV SCOPE_SKIP_UI_ASSETS true
 RUN set -eux; \
    export arch_val="$(dpkg --print-architecture)"; \
