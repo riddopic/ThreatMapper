@@ -20,7 +20,7 @@ sqlalchemy==1.4.36
 sqlalchemy-utils==0.38.2
 pypd==1.1.0
 hurry.filesize==0.9
-pycryptodome==3.14.1
+pycryptodome==3.19.1
 netaddr==0.8.0
 certifi==2022.5.18.1
 chardet==4.0.0
