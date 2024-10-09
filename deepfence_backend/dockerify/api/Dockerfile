@@ -4,7 +4,7 @@ WORKDIR /go/logstashPubSubReader
 ADD tasks/logstashPubSubReader /go/logstashPubSubReader/
 RUN go build -o logstashPubSubReader .
 
-FROM python:3.9-slim-bullseye
+FROM python:3.12.7-slim-bullseye
 LABEL deepfence.role=system
 
 ENV PYTHONUNBUFFERED=1 \
