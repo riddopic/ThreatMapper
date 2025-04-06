@@ -3,7 +3,7 @@ ARG IMAGE_REPOSITORY=deepfenceio
 FROM $IMAGE_REPOSITORY/deepfence_package_scanner_ce:$DF_IMG_TAG AS build
 FROM $IMAGE_REPOSITORY/deepfence_malware_scanner_ce:$DF_IMG_TAG AS malware_build
 
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 MAINTAINER Deepfence Inc
 LABEL deepfence.role=system
