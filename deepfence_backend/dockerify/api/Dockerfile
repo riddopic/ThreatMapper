@@ -8,7 +8,7 @@ WORKDIR /go/reportHandler
 ADD tasks/reportHandler /go/reportHandler/
 RUN CGO_ENABLED=0 go build -o reportHandler .
 
-FROM python:3.9-slim-bullseye
+FROM python:3.12.7-slim-bullseye
 LABEL deepfence.role=system
 
 ENV PYTHONUNBUFFERED=1 \
