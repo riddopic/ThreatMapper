@@ -1,3 +1,4 @@
 flask==1.0.0
 google-api-python-client==1.6.7
 werkzeug<1.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
