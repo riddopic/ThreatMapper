@@ -1,6 +1,6 @@
 module github.com/weaveworks/scope
 
-go 1.19
+go 1.23.0
 
 // Do not upgrade until https://github.com/fluent/fluent-logger-golang/issues/80 is fixed
 replace github.com/fluent/fluent-logger-golang => github.com/fluent/fluent-logger-golang v1.2.1
@@ -68,13 +68,12 @@ require (
 	github.com/weaveworks/tcptracer-bpf v0.0.0-00010101000000-000000000000
 	github.com/weaveworks/weave v2.6.5+incompatible
 	github.com/willdonnelly/passwd v0.0.0-20141013001024-7935dab3074c
-	golang.org/x/net v0.1.0
-	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.1.0
+	golang.org/x/net v0.25.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
 	golang.org/x/time v0.1.0
-	golang.org/x/tools v0.2.0
+	golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
 	google.golang.org/grpc v1.50.1
-	google.golang.org/protobuf v1.28.1
 	k8s.io/api v0.25.3
 	k8s.io/apimachinery v0.25.3
 	k8s.io/client-go v0.25.3
@@ -108,7 +107,7 @@ require (
 	github.com/gogo/status v1.0.3 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/hashicorp/go-hclog v0.14.1 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.0 // indirect
@@ -154,14 +153,15 @@ require (
 	github.com/weaveworks/promrus v1.2.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/atomic v1.5.1 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
-	golang.org/x/mod v0.6.0 // indirect
+	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
-	golang.org/x/term v0.1.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
