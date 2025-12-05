@@ -7,7 +7,7 @@ require (
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/lib/pq v1.10.6
 	github.com/olivere/elastic/v7 v7.0.32
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.8.3
 )
 
 require (
@@ -18,7 +18,6 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
-	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/twmb/franz-go/pkg/kmsg v1.1.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
@@ -35,5 +34,5 @@ require (
 	github.com/streadway/amqp v1.0.0 // indirect
 	github.com/twmb/franz-go v1.6.0
 	github.com/twmb/franz-go/pkg/kadm v1.1.1
-	golang.org/x/sys v0.0.0-20220627191245-f75cf1eec38b // indirect
+	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
 )
